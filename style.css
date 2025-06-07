@@ -1,0 +1,89 @@
+body {
+    background: #7bc4dc;
+    color: #11485a;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+#app-container {
+    background: lightblue;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 4px solid #328fad;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#header {
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#weather-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -25px;
+}
+
+img {
+    width: 120px;
+    align-items: center;
+    padding: -50px;
+}
+
+#descriptor {
+    margin-top: -8px;
+}
+
+#left-box, #right-box {
+    margin: 12px;
+}
+
+#city-info {
+    margin-bottom: 30px;
+}
+
+#search-bar {
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    color: #cccccc;
+}
+
+#input-box {
+    width: 250px;
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #11485a;
+}
+
+#input-button {
+    background-color: #7bc4dc;
+    color: #11485a;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#input-button:hover {
+    background-color: #8cd3eb;
+}
+
+hr {
+    background-color: #328fad;
+    border: none;
+    height: 1px;
+}
