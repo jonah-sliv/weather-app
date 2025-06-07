@@ -1,4 +1,4 @@
-const apiKey = "78303113d9124b4db6b193805250706";
+const apiKey = API_KEY;
 
 const inputBox = document.getElementById("input-box");
 const appContainer = document.getElementById("app-container")
